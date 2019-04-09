@@ -1,3 +1,3 @@
-# app-exemplo
+# app-de-login
 
-Aplicativo criado na disciplina de Desenvolvimento de Aplicativos Móveis
+Aplicativo criado para a disciplina de Desenvolvimento de Aplicativos Móveis
