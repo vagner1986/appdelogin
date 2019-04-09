@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item text-center>
+    <ion-label>
+      <ion-icon name="logo-ionic" class="logo"></ion-icon>
+    </ion-label>
+  </ion-item>
+
+  <h1>Aplicativo do Vagner</h1>
+  <h6>Faça seu login ou crie uma nova conta.</h6>
+
+  <ion-grid>
+    <ion-row class="inputStyle">
+      <ion-icon name="mail"></ion-icon>
+      <ion-input type="email" [(ngModel)]="email"></ion-input>
+    </ion-row>
+    <ion-row class="inputStyle">
+      <ion-icon name="key"></ion-icon>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-row>
+  </ion-grid>
+
+  <ion-button 
+      expand="block"
+      shape="round"
+      fill="outline"
+      style="margin-top: 20px"
+      color="light" (click)="onSubmitLogin()">Entrar</ion-button>
+
+      <ion-button 
+          expand="block"
+          shape="round"
+          fill="outline"
+          style="margin-top: 20px"
+          routerLink="/register"
+          color="light">Registrar</ion-button>
+</ion-content>
